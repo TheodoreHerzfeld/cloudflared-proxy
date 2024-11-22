@@ -1,3 +1,0 @@
-# cloudflared
-
-cloudflared docker container
