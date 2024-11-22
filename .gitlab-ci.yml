@@ -18,7 +18,6 @@ default:
           echo "Waiting for docker to start"
           sleep 1s
       done
-    - env
     - echo "$CI_DOCKER_PW" | docker login $CI_REGISTRY -u $CI_DOCKER_USER --password-stdin
 
 stages:
